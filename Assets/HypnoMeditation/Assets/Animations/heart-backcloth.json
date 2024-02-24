@@ -1,0 +1,19 @@
+{
+"skeleton": { "hash": "L9TTG3bQmwLb3e5sZovWjhD0RC0", "spine": "2.1.27", "width": 164, "height": 47, "images": "" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "heart/heart_1", "bone": "root", "attachment": "heart/heart_1" }
+],
+"skins": {
+	"default": {
+		"heart/heart_1": {
+			"heart/heart_1": { "width": 164, "height": 47 }
+		}
+	}
+},
+"animations": {
+	"animation": {}
+}
+}

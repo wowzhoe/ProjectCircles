@@ -1,0 +1,196 @@
+{
+"skeleton": { "hash": "8vmgXa8Hl6lDylX7MLG5OJJtI2A", "spine": "2.1.08", "width": 409, "height": 409, "images": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "length": 69.23, "x": -0.21, "y": 0.79 }
+],
+"slots": [
+	{ "name": "transition/transition-3", "bone": "bone", "attachment": "transition/transition-1" },
+	{ "name": "transition/transition-4", "bone": "bone" },
+	{ "name": "transition/transition-5", "bone": "bone" },
+	{ "name": "transition/transition-6", "bone": "bone" },
+	{ "name": "transition/transition-7", "bone": "bone" }
+],
+"skins": {
+	"default": {
+		"transition/transition-3": {
+			"transition/transition-1": { "x": 0.21, "y": -0.79, "width": 409, "height": 409 }
+		},
+		"transition/transition-4": {
+			"transition/transition-2": { "x": 0.21, "y": -0.79, "rotation": 360, "width": 286, "height": 286 }
+		},
+		"transition/transition-5": {
+			"transition/transition-2": { "x": 0.21, "y": -0.79, "scaleX": -1, "rotation": 360, "width": 286, "height": 286 }
+		},
+		"transition/transition-6": {
+			"transition/transition-2": { "x": 0.21, "y": -0.79, "scaleX": -1, "scaleY": -1, "rotation": 360, "width": 286, "height": 286 }
+		},
+		"transition/transition-7": {
+			"transition/transition-2": { "x": 0.21, "y": -0.79, "scaleY": -1, "rotation": 360, "width": 286, "height": 286 }
+		}
+	}
+},
+"animations": {
+	"animation_no": {
+		"slots": {
+			"transition/transition-3": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.0333, "name": "transition/transition-1" }
+				],
+				"color": [
+					{ "time": 0.0333, "color": "000000ff", "curve": "stepped" },
+					{ "time": 0.5666, "color": "000000ff" },
+					{ "time": 0.8333, "color": "00000000" }
+				]
+			},
+			"transition/transition-4": {
+				"attachment": [
+					{ "time": 0.0333, "name": "transition/transition-2" },
+					{ "time": 0.1, "name": null },
+					{ "time": 0.3, "name": "transition/transition-2" },
+					{ "time": 0.3666, "name": null },
+					{ "time": 0.5666, "name": "transition/transition-2" },
+					{ "time": 0.6333, "name": null }
+				],
+				"color": [
+					{ "time": 0.0333, "color": "000000ff", "curve": "stepped" },
+					{ "time": 0.5666, "color": "000000ff" },
+					{ "time": 0.8333, "color": "00000000" }
+				]
+			},
+			"transition/transition-5": {
+				"attachment": [
+					{ "time": 0.1, "name": "transition/transition-2" },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3666, "name": "transition/transition-2" },
+					{ "time": 0.4333, "name": null },
+					{ "time": 0.6333, "name": "transition/transition-2" },
+					{ "time": 0.7, "name": null }
+				],
+				"color": [
+					{ "time": 0.0333, "color": "000000ff", "curve": "stepped" },
+					{ "time": 0.5666, "color": "000000ff" },
+					{ "time": 0.8333, "color": "00000000" }
+				]
+			},
+			"transition/transition-6": {
+				"attachment": [
+					{ "time": 0.1666, "name": "transition/transition-2" },
+					{ "time": 0.2333, "name": null },
+					{ "time": 0.4333, "name": "transition/transition-2" },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.7, "name": "transition/transition-2" },
+					{ "time": 0.7666, "name": null }
+				],
+				"color": [
+					{ "time": 0.0333, "color": "000000ff", "curve": "stepped" },
+					{ "time": 0.5666, "color": "000000ff" },
+					{ "time": 0.8333, "color": "00000000" }
+				]
+			},
+			"transition/transition-7": {
+				"attachment": [
+					{ "time": 0.2333, "name": "transition/transition-2" },
+					{ "time": 0.3, "name": null },
+					{ "time": 0.5, "name": "transition/transition-2" },
+					{ "time": 0.5666, "name": null },
+					{ "time": 0.7666, "name": "transition/transition-2" },
+					{ "time": 0.8333, "name": null }
+				],
+				"color": [
+					{ "time": 0.0333, "color": "000000ff", "curve": "stepped" },
+					{ "time": 0.5666, "color": "000000ff" },
+					{ "time": 0.8333, "color": "00000000" }
+				]
+			}
+		},
+		"bones": {
+			"bone": {
+				"scale": [
+					{ "time": 0.0333, "x": 0.1, "y": 0.1 },
+					{ "time": 0.5333, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"animation_yes": {
+		"slots": {
+			"transition/transition-3": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.0333, "name": "transition/transition-1" }
+				],
+				"color": [
+					{ "time": 0.5666, "color": "ffffffff" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				]
+			},
+			"transition/transition-4": {
+				"attachment": [
+					{ "time": 0.0333, "name": "transition/transition-2" },
+					{ "time": 0.1, "name": null },
+					{ "time": 0.3, "name": "transition/transition-2" },
+					{ "time": 0.3666, "name": null },
+					{ "time": 0.5666, "name": "transition/transition-2" },
+					{ "time": 0.6333, "name": null }
+				],
+				"color": [
+					{ "time": 0.5666, "color": "ffffffff" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				]
+			},
+			"transition/transition-5": {
+				"attachment": [
+					{ "time": 0.1, "name": "transition/transition-2" },
+					{ "time": 0.1666, "name": null },
+					{ "time": 0.3666, "name": "transition/transition-2" },
+					{ "time": 0.4333, "name": null },
+					{ "time": 0.6333, "name": "transition/transition-2" },
+					{ "time": 0.7, "name": null }
+				],
+				"color": [
+					{ "time": 0.5666, "color": "ffffffff" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				]
+			},
+			"transition/transition-6": {
+				"attachment": [
+					{ "time": 0.1666, "name": "transition/transition-2" },
+					{ "time": 0.2333, "name": null },
+					{ "time": 0.4333, "name": "transition/transition-2" },
+					{ "time": 0.5, "name": null },
+					{ "time": 0.7, "name": "transition/transition-2" },
+					{ "time": 0.7666, "name": null }
+				],
+				"color": [
+					{ "time": 0.5666, "color": "ffffffff" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				]
+			},
+			"transition/transition-7": {
+				"attachment": [
+					{ "time": 0.2333, "name": "transition/transition-2" },
+					{ "time": 0.3, "name": null },
+					{ "time": 0.5, "name": "transition/transition-2" },
+					{ "time": 0.5666, "name": null },
+					{ "time": 0.7666, "name": "transition/transition-2" },
+					{ "time": 0.8333, "name": null }
+				],
+				"color": [
+					{ "time": 0.5666, "color": "ffffffff" },
+					{ "time": 0.8333, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"bone": {
+				"scale": [
+					{ "time": 0.0333, "x": 0.1, "y": 0.1 },
+					{ "time": 0.5333, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}
